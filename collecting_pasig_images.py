@@ -14,7 +14,7 @@ client_token = os.getenv("ACCESS_TOKEN")
 
 features = []
 
-path = "data/json/pasig"
+path = "data/mapillary/pasig"
 try:
     os.makedirs(path)
     print("Folder %s created!" % path)
